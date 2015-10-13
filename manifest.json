@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Remove due dates",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://trello.com/*daily-work*"
+    ],
+    "js": ["bower_components/jquery/dist/jquery.min.js", "content.js"]
+  }
+]
+}
